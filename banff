@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加拿大班夫 12 日極致漫遊 | 旅遊手冊</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Noto+Serif+TC:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        morandi: {
+                            sage: '#8A9A86',
+                            sagedark: '#6E7E6A',
+                            sagelight: '#EBF0E9',
+                            dustyblue: '#8CA3B0',
+                            bluedark: '#6B8290',
+                            sand: '#D9D2C9',
+                            oat: '#E8E3DC',
+                            cream: '#F7F5F0',
+                            clay: '#B09B89',
+                            claylight: '#F4F0EC',
+                            charcoal: '#36393B',
+                            slate: '#5A6266',
+                            accent: '#A67C52'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Noto Serif TC"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        cinzel: ['"Cinzel"', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #F7F5F0;
+            color: #36393B;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #E8E3DC;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8A9A86;
+            border-radius: 4px;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+    </style>
+</head>
+<body class="antialiased text-morandi-charcoal selection:bg-morandi-sage selection:text-white">
+
+    <!-- Top Navigation Header -->
+    <header class="sticky top-0 z-40 bg-morandi-cream/90 backdrop-blur-md border-b border-morandi-oat shadow-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <i data-lucide="snowflake" class="w-5 h-5 text-morandi-sage"></i>
+                <span class="font-serif text-base sm:text-lg font-semibold tracking-wide text-morandi-charcoal">12 日極致漫遊 · 加拿大班夫</span>
+            </div>
+            
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-morandi-slate items-center">
+                <a href="#itinerary" class="hover:text-morandi-sage transition flex items-center gap-1">
+                    <i data-lucide="map" class="w-4 h-4"></i> 行程規劃
+                </a>
+                <a href="#packing-list" class="hover:text-morandi-sage transition flex items-center gap-1">
+                    <i data-lucide="check-square" class="w-4 h-4"></i> 行李清單
+                </a>
+                <a href="#hero" class="bg-morandi-sage hover:bg-morandi-sagedark text-white text-xs px-4 py-2 rounded-full transition shadow-sm font-medium flex items-center gap-1">
+                    <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i> 回首頁探索行程
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner with Snow Mountain Photo -->
+    <section id="hero" class="relative h-[80vh] min-h-[480px] flex items-center justify-center overflow-hidden bg-cover bg-center" style="background-image: url('https://plus.unsplash.com/premium_photo-1669868119012-f5ea10b9d3f0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');">
+        
+        <!-- Deep Gradient Overlay for legible typography -->
+        <div class="absolute inset-0 bg-gradient-to-t from-morandi-charcoal/90 via-morandi-charcoal/45 to-morandi-charcoal/25"></div>
+
+        <div class="relative max-w-4xl mx-auto text-center px-6 text-white z-10 space-y-4">
+            <p class="font-cinzel text-xs sm:text-sm uppercase tracking-[0.3em] mb-3 text-morandi-oat">Canadian Rockies Winter Expedition</p>
+            <h1 class="font-serif text-3xl sm:text-5xl lg:text-5xl font-bold tracking-tight leading-tight text-white drop-shadow-md">
+                班夫雪國落基山脈．12 日極致漫遊 
+            </h1>
+            <p class="text-base sm:text-lg text-morandi-cream/90 max-w-2xl mx-auto font-light leading-relaxed mb-6">
+                <strong>從雨城西雅圖的港灣浪漫，走向班夫的冰封藍寶石與壯麗峽谷。低飽和度色彩裡的沉靜冬日，開啟一趟優雅而深刻的 12 天奢適探索。</strong>
+            </p>
+            <div class="flex flex-wrap justify-center gap-3 sm:gap-4 text-xs sm:text-sm">
+                <div class="bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-5 py-2 text-white flex items-center gap-2">
+                    <i data-lucide="calendar" class="w-4 h-4 text-morandi-sand"></i> 2027/01/29 - 02/09
+                </div>
+                <div class="bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-5 py-2 text-white flex items-center gap-2">
+                    <i data-lucide="map-pin" class="w-4 h-4 text-morandi-sand"></i> 西雅圖 · 卡加利 · 班夫國家公園
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Day Selector / Sticky Quick Nav (Fixed horizontal scrolling) -->
+    <div class="sticky top-16 z-30 bg-morandi-oat/95 backdrop-blur-md border-b border-morandi-sand shadow-xs">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center overflow-x-auto py-3 space-x-2 hide-scrollbar">
+                <a href="#day-1" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D1 01/29 台北 ➔ 西雅圖</a>
+                <a href="#day-2" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D2 01/30 西雅圖一日遊</a>
+                <a href="#day-3" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D3 01/31 飛往卡加利</a>
+                <a href="#day-4" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D4 02/01 前往班夫</a>
+                <a href="#day-5" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D5 02/02 露易絲湖/雪橇</a>
+                <a href="#day-6" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D6 02/03 纜車與溫泉</a>
+                <a href="#day-7" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D7 02/04 冰瀑健行</a>
+                <a href="#day-8" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D8 02/05 班夫 ➔ 卡加利</a>
+                <a href="#day-9" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D9 02/06 卡加利建築藝文</a>
+                <a href="#day-10" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D10 02/07 卡加利 ➔ 返台</a>
+                <a href="#day-11" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-medium bg-white text-morandi-charcoal hover:bg-morandi-sage hover:text-white transition border border-morandi-sand">D11-12 02/08-09 抵達台北</a>
+                <a href="#packing-list" class="whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-semibold bg-morandi-clay text-white hover:bg-morandi-accent transition shadow-xs">🧳 行李清單</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Layout -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+        <!-- Itinerary Timeline Section -->
+        <section id="itinerary" class="space-y-12">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <span class="font-cinzel text-xs uppercase tracking-widest text-morandi-sage font-semibold">Detailed Itinerary</span>
+                <h2 class="font-serif text-3xl font-bold text-morandi-charcoal">12日詳細行程手冊</h2>
+                <div class="w-12 h-0.5 bg-morandi-sage/50 mx-auto mt-2"></div>
+            </div>
+
+            <div class="space-y-10">
+
+                <!-- DAY 1 -->
+                <article id="day-1" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1502175353174-a7a70e73b362?q=80&w=1000&auto=format&fit=crop" 
+                                 alt="Seattle Skyline" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 01 · 01/29 (五)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">啟程：台北 ➔ 西雅圖</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    跨越太平洋的時光之旅。午後降落於充滿咖啡香與海風的翡翠之城西雅圖，辦理入住後展開漫步。
+                                </p>
+                                
+                                <div class="space-y-2 mb-4">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">晚上</span>
+                                        <span class="text-xs sm:text-sm text-morandi-charcoal">抵達西雅圖市中心，入住飯店休息，適應時差。</span>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                        <i data-lucide="plane" class="w-4 h-4 text-morandi-sage flex-shrink-0"></i>
+                                        <span>TPE 01/29 20:30 ➔ SEA 01/29 15:05</span>
+                                    </div>
+                                    <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                        <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                        <span>Reside Seattle Downtown, a Wyndham Residence</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 2 -->
+                <article id="day-2" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1775794006766-a8b8fe0d8763?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Snoqualmie Falls" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 02 · 01/30 (六)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">西雅圖一日遊：雙方案探索</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    體驗雨城漫遊步調，可選擇渡輪文青之旅或近郊壯麗瀑布健行。
+                                </p>
+
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                                    <div class="p-3.5 bg-morandi-cream/40 rounded-xl border border-morandi-oat">
+                                        <span class="text-xs font-bold text-morandi-sage block mb-1">方案一：班布里奇島</span>
+                                        <p class="text-xs text-morandi-slate">搭乘渡輪前往班布里奇島，探索獨立文青小店、手沖咖啡館與週六農夫市集。</p>
+                                    </div>
+                                    <div class="p-3.5 bg-morandi-cream/40 rounded-xl border border-morandi-oat">
+                                        <span class="text-xs font-bold text-morandi-dustyblue block mb-1">方案二：瀑布健行</span>
+                                        <p class="text-xs text-morandi-slate">斯諾誇爾米瀑布半日遊，沿著森林步步健行約 3km 探訪壯觀的雙瀑布景致。</p>
+                                    </div>
+                                </div>
+
+                                <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                    <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                    <span>Reside Seattle Downtown, a Wyndham Residence</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 3 -->
+                <article id="day-3" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1000&auto=format&fit=crop" 
+                                 alt="Pike Place Seattle" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 03 · 01/31 (日)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">西雅圖經典巡禮 ➔ 飛往加拿大卡加利</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    上午走訪西雅圖經典地標，品嚐原創星巴克咖啡，傍晚搭機飛往卡加利，為即將展開的落基山脈之旅做準備。
+                                </p>
+
+                                <div class="space-y-3 mb-4 text-xs sm:text-sm">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">上午 / 下午</span>
+                                        <span class="text-morandi-charcoal">走訪派克市場周邊農夫市集、繽紛口香糖牆、首家星巴克創始店與水族館市區散策；下午提前享用晚餐。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">晚上</span>
+                                        <span class="text-morandi-charcoal">西雅圖搭機飛抵卡加利，預留海關、行李與潛在延誤時間。</span>
+                                    </div>
+                                </div>
+
+                                <!-- Collapsible Clickable Shuttle Section -->
+                                <details class="group mb-4 bg-morandi-oat/25 rounded-xl border border-morandi-oat/80 text-xs overflow-hidden transition-all">
+                                    <summary class="flex items-center justify-between p-3.5 font-bold text-morandi-sage cursor-pointer select-none hover:bg-morandi-oat/40 transition">
+                                        <span class="flex items-center">
+                                            <i data-lucide="bus" class="w-4 h-4 mr-1.5"></i> 點擊展開：卡加利機場飯店免費接駁資訊
+                                        </span>
+                                        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-open:rotate-180"></i>
+                                    </summary>
+                                    <div class="p-4 pt-4 border-t border-morandi-oat/60 space-y-1.5 text-morandi-slate bg-white">
+                                        <p>• 抵達卡加利機場後，可免費搭乘 24hr 飯店專用接駁車前往飯店休息。</p>
+                                        <p>• <strong>提醒：</strong>辦理 Check-in 時請務必提前預約隔天早晨 <strong>08:30</strong> 返回機場的接駁班次。</p>
+                                    </div>
+                                </details>
+
+                                <div class="space-y-2">
+                                    <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                        <i data-lucide="plane" class="w-4 h-4 text-morandi-sage flex-shrink-0"></i>
+                                        <span>SEA 01/31 17:52 ➔ YYC 01/31 21:30</span>
+                                    </div>
+                                    <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                        <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                        <span>Park Inn by Radisson, Calgary Airport North, AB</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 4 -->
+                <article id="day-4" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1760546070855-cacf7cf8cf51?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Banff Town" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 04 · 02/01 (一)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">穿過雪原：前往班夫童話小鎮</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    搭乘預約接駁專車一路向西，從平原駛入被雪山環抱的班夫國家公園。午後在絕美的班夫大道漫步，感受濃厚的雪國小鎮風情。
+                                </p>
+
+                                <div class="space-y-3 mb-4">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">上午</span>
+                                        <span class="text-xs sm:text-sm text-morandi-charcoal">搭乘接駁車前往班夫，車程約 2 小時（冬季交通預留彈性時間）。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-accent/20 text-morandi-accent text-xs font-medium flex-shrink-0 mt-0.5">中午</span>
+                                        <span class="text-xs sm:text-sm text-morandi-charcoal">於熱鬧的班夫大道享用在地特色午餐。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">下午</span>
+                                        <span class="text-xs sm:text-sm text-morandi-charcoal">參觀 Banff Park Museum 歷史國家史蹟、漫步班夫大道採買戶外用品與超市補給。</span>
+                                    </div>
+                                </div>
+
+                                <!-- Collapsible Clickable Shuttle Section -->
+                                <details class="group mb-4 bg-morandi-oat/25 rounded-xl border border-morandi-oat/80 text-xs overflow-hidden transition-all">
+                                    <summary class="flex items-center justify-between p-3.5 font-bold text-morandi-sage cursor-pointer select-none hover:bg-morandi-oat/40 transition">
+                                        <span class="flex items-center">
+                                            <i data-lucide="bus" class="w-4 h-4 mr-1.5"></i> 點擊展開：Brewster Express 接駁班次與地點
+                                        </span>
+                                        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-open:rotate-180"></i>
+                                    </summary>
+                                    <div class="p-4 pt-4 border-t border-morandi-oat/60 space-y-1.5 text-morandi-slate bg-white">
+                                        <p>• <strong>09:30 AM 出發：</strong>卡加利國際機場 (YYC) 5號門旁的 Pursuit 櫃檯集合報到。</p>
+                                        <p>• <strong>11:30 AM 抵達：</strong>Brewster Mountain Lodge (於 Mount Royal Hotel 站牌下車)。</p>
+                                    </div>
+                                </details>
+
+                                <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                    <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                    <span>Brewster's Mountain Lodge (入住 4 晚)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 5 -->
+                <article id="day-5" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md ring-2 ring-morandi-sage/30">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[280px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1694216494923-127b26c3f924?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Lake Louise Winter" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 05 · 02/02 (二) · 包車行程
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">包車景觀遊：露易絲湖與翡翠湖</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    專車包車一日遊。欣賞被白雪封凍的「落基山藍寶石」露易絲湖與維多利亞冰川，體驗詩意盎然的浪漫馬拉雪橇。
+                                </p>
+
+                                <div class="space-y-2 mb-4 text-xs sm:text-sm">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">上午</span>
+                                        <span class="text-morandi-charcoal">包車前往 Lake Louise 區域，欣賞冰封湖面、維多利亞冰川與周圍山景。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-accent/20 text-morandi-accent text-xs font-medium flex-shrink-0 mt-0.5">中午</span>
+                                        <span class="text-morandi-charcoal">於 Lake Louise 享用午餐，並在 Village 溫暖室內休息。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">13:00</span>
+                                        <span class="text-morandi-charcoal">特別安排 <strong>Brewster Lake Louise 馬拉雪橇體驗：</strong>穿梭於雪花紛飛的森林徑道。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">下午</span>
+                                        <span class="text-morandi-charcoal">前往翡翠湖 (Emerald Lake) 觀賞冬日靜謐無瑕的湖光山色。</span>
+                                    </div>
+                                </div>
+
+                                <!-- Collapsible Clickable Rules Section -->
+                                <details class="group mb-4 bg-morandi-clay/15 rounded-xl border border-morandi-clay/40 text-xs overflow-hidden transition-all">
+                                    <summary class="flex items-center justify-between p-3.5 font-bold text-morandi-accent cursor-pointer select-none hover:bg-morandi-clay/25 transition">
+                                        <span class="flex items-center">
+                                            <i data-lucide="alert-circle" class="w-4 h-4 mr-1.5"></i> 點擊展開：馬拉雪橇與園區管制報到須知
+                                        </span>
+                                        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-open:rotate-180"></i>
+                                    </summary>
+                                    <div class="p-4 pt-4 border-t border-morandi-clay/30 space-y-1.5 text-morandi-slate bg-white">
+                                        <p>• <strong>提前 30 分鐘報到：</strong>必須於預定發車前 30 分鐘到達路易斯湖雪橇服務台辦理登記並簽署免責聲明。逾時登車將無法退款或改期。</p>
+                                        <p>• <strong>車程預留：</strong>自班夫出發請至少預留 1.5 小時車程因應冬日路況。</p>
+                                        <p>• <strong>通行保證：</strong>此確認函為通行憑證，若因停車位不足管制時，出示預約證明即可進入路易斯湖上游。</p>
+                                    </div>
+                                </details>
+
+                                <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                    <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                    <span>Brewster's Mountain Lodge</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 6 -->
+                <article id="day-6" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1664901886091-a21a72f9551c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Banff Gondola Mountain View" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 06 · 02/03 (三)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">自由行日：雪山全景纜車與露天溫泉</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    登上硫磺山頂俯瞰落基山脈連綿雪峰，傍晚沉浸於雪山圍繞的天然溫泉中，體驗冰火交融的極致放鬆。
+                                </p>
+
+                                <div class="space-y-3 mb-4 text-xs sm:text-sm">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">上午</span>
+                                        <span class="text-morandi-charcoal">搭乘 Roam 1 號公車前往 Banff Gondola，搭纜車直登硫磺山頂觀景台。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-accent/20 text-morandi-accent text-xs font-medium flex-shrink-0 mt-0.5">中午</span>
+                                        <span class="text-morandi-charcoal">於山頂景觀餐廳美味用餐。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">下午</span>
+                                        <span class="text-morandi-charcoal">體驗知名班夫露天溫泉 Banff Upper Hot Springs</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-clay/30 text-morandi-clay text-xs font-medium flex-shrink-0 mt-0.5">傍晚</span>
+                                        <span class="text-morandi-charcoal">班夫大道自由享用晚餐。</span>
+                                    </div>
+                                </div>
+
+                                <div class="p-3 bg-morandi-cream border border-morandi-oat rounded-xl flex items-center space-x-2 text-xs text-morandi-clay font-medium mb-4">
+                                    <i data-lucide="sparkles" class="w-4 h-4 flex-shrink-0"></i>
+                                    <span>溫泉提醒：請隨身攜帶泳衣、毛巾、水壺與乾淨拖鞋/涼鞋。</span>
+                                </div>
+
+                                <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                    <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                    <span>Brewster's Mountain Lodge</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 7 -->
+                <article id="day-7" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1549134995-6605f52acd58?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Johnston Canyon Icewalk" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 07 · 02/04 (四)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">峽谷探索：Johnston Canyon 冰瀑健行</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    戴上冰爪踏上鋼架懸空步道，深入壯麗峽谷，近距離欣賞震撼人心、宛如結晶珠寶般的湛藍冰柱與冰封瀑布。
+                                </p>
+
+                                <div class="space-y-3 mb-4 text-xs sm:text-sm">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">08:30–09:00</span>
+                                        <span class="text-morandi-charcoal">早餐後集合，參加預約的冰瀑健行導覽團。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">上午</span>
+                                        <span class="text-morandi-charcoal">沿著冰雪峭壁步道前行，觀賞 Upper & Lower Falls 冰瀑懸崖奇景。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-accent/20 text-morandi-accent text-xs font-medium flex-shrink-0 mt-0.5">中午 / 下午</span>
+                                        <span class="text-morandi-charcoal">返回班夫鎮享用熱湯與咖啡休憩，午後悠閒逛露天戶外用品店。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">備註</span>
+                                        <span class="text-morandi-slate">如天氣條件變動，可視情況彈性替代為 Grotto Canyon 冰瀑健行。</span>
+                                    </div>
+                                </div>
+
+                                <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                    <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                    <span>Brewster's Mountain Lodge</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 8 -->
+                <article id="day-8" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1776553410453-ca2f6c768df7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Banff Town Avenue and Snow Mountain" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 08 · 02/05 (五)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">班夫最後一日 ➔ 卡加利市區</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    清晨再次漫步班夫小鎮，告別落基山脈。傍晚搭乘預約接駁車前往卡加利市中心，享用精緻牛排晚餐。
+                                </p>
+
+                                <div class="space-y-3 mb-4 text-xs sm:text-sm">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">08:30–09:30</span>
+                                        <span class="text-morandi-charcoal">辦理退房，再次探訪 Surprise Corner 或 Bow Falls 拍照留念。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">下午</span>
+                                        <span class="text-morandi-charcoal">搭乘接駁車前往卡加利市中心（約 2 小時車程）。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-clay/30 text-morandi-clay text-xs font-medium flex-shrink-0 mt-0.5">傍晚 / 晚上</span>
+                                        <span class="text-morandi-charcoal">入住精品飯店，享用艾伯塔省道地高檔牛排大餐，市區漫步。</span>
+                                    </div>
+                                </div>
+
+                                <!-- Collapsible Clickable Shuttle Section -->
+                                <details class="group mb-4 bg-morandi-oat/25 rounded-xl border border-morandi-oat/80 text-xs overflow-hidden transition-all">
+                                    <summary class="flex items-center justify-between p-3.5 font-bold text-morandi-sage cursor-pointer select-none hover:bg-morandi-oat/40 transition">
+                                        <span class="flex items-center">
+                                            <i data-lucide="bus" class="w-4 h-4 mr-1.5"></i> 點擊展開：Brewster Express 返程接駁細節
+                                        </span>
+                                        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-open:rotate-180"></i>
+                                    </summary>
+                                    <div class="p-4 pt-4 border-t border-morandi-oat/60 space-y-1.5 text-morandi-slate bg-white">
+                                        <p>• <strong>16:40 PM 出發：</strong>Brewster Mountain Lodge ( Mount Royal Hotel 乘車點)。</p>
+                                        <p>• <strong>19:30 PM 抵達：</strong>The Westley Calgary Downtown 飯店。</p>
+                                    </div>
+                                </details>
+
+                                <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                    <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                    <span>The Westley Calgary Downtown, Tapestry Collection by Hilton (入住 2 晚)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 9 -->
+                <article id="day-9" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://plus.unsplash.com/premium_photo-1673241100156-2e04fca1a4af?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Calgary Central Library Architecture" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 09 · 02/06 (六)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">卡加利：知名地標、現代建築美學城市散策</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    深度的城市巡禮。走訪曾獲國際建築大獎的中央圖書館、地標和平橋與 Inglewood 文創街區。
+                                </p>
+
+                                <div class="space-y-3 mb-4 text-xs sm:text-sm">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">上午</span>
+                                        <span class="text-morandi-charcoal">市區質感早午餐，參觀 Calgary Central Library 享受木質光影幾何建築。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">下午</span>
+                                        <span class="text-morandi-charcoal">Calgary Tower 俯瞰市容、Studio Bell 音樂博物館，沿 Bow River 散步至 Peace Bridge。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-clay/30 text-morandi-clay text-xs font-medium flex-shrink-0 mt-0.5">傍晚 / 晚上</span>
+                                        <span class="text-morandi-charcoal">逛 Inglewood 特色小店採買伴手禮；整理行李並確認隔天早班機。</span>
+                                    </div>
+                                </div>
+
+                                <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                    <i data-lucide="bed" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                    <span>The Westley Calgary Downtown, Tapestry Collection by Hilton</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 10 -->
+                <article id="day-10" class="scroll-mt-32 bg-white rounded-2xl border border-morandi-oat shadow-xs overflow-hidden transition hover:shadow-md">
+                    <div class="grid grid-cols-1 lg:grid-cols-12">
+                        <div class="lg:col-span-5 relative min-h-[260px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1723143052914-86c5d74e42aa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" 
+                                 alt="Seattle Waterfront" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute top-4 left-4 bg-morandi-sage text-white text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+                                DAY 10 · 02/07 (日)
+                            </div>
+                        </div>
+                        <div class="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mb-2">卡加利 ➔ 西雅圖中轉 ➔ 準備返台</h3>
+                                <p class="text-sm text-morandi-slate leading-relaxed mb-4">
+                                    清晨飛往西雅圖，午後寄放行李於派克市場或海濱灣輕鬆放鬆，夜晚前往機場準備登機返回台北。
+                                </p>
+
+                                <div class="space-y-3 mb-4 text-xs sm:text-sm">
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-sage/20 text-morandi-sage text-xs font-medium flex-shrink-0 mt-0.5">上午</span>
+                                        <span class="text-morandi-charcoal">YYC 09:00 起飛，08:52 飛抵西雅圖 (SEA)，辦理行李寄放。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-accent/20 text-morandi-accent text-xs font-medium flex-shrink-0 mt-0.5">白天</span>
+                                        <span class="text-morandi-charcoal">漫步 Pike Place Market、水岸碼頭區享用美味海鮮晚餐。</span>
+                                    </div>
+                                    <div class="flex items-start space-x-2">
+                                        <span class="px-2 py-0.5 rounded bg-morandi-dustyblue/20 text-morandi-slate text-xs font-medium flex-shrink-0 mt-0.5">晚間</span>
+                                        <span class="text-morandi-charcoal">辦理登機手續，搭乘跨太平洋深夜航班返台。</span>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                        <i data-lucide="plane" class="w-4 h-4 text-morandi-sage flex-shrink-0"></i>
+                                        <span>YYC 02/07 09:00 ➔ SEA 02/07 08:52</span>
+                                    </div>
+                                    <div class="bg-morandi-cream/60 p-3 rounded-xl border border-morandi-oat/70 flex items-center space-x-3 text-xs">
+                                        <i data-lucide="plane-takeoff" class="w-4 h-4 text-morandi-dustyblue flex-shrink-0"></i>
+                                        <span>SEA 02/07 23:45 ➔ TPE 02/09 04:55 (+2天)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- DAY 11 & 12 -->
+                <article id="day-11" class="scroll-mt-32 bg-morandi-oat/40 rounded-2xl border border-morandi-oat p-6 sm:p-8 text-center max-w-3xl mx-auto">
+                    <span class="font-cinzel text-xs uppercase tracking-widest text-morandi-sage">Homecoming</span>
+                    <h3 class="font-serif text-2xl font-semibold text-morandi-charcoal mt-1 mb-2">DAY 11-12 · 02/08 ~ 02/09 (一/二)</h3>
+                    <p class="text-sm text-morandi-slate leading-relaxed">
+                        飛行途中越過國際換日線。將班夫無瑕的雪景色澤與美好的旅程記憶，帶回溫暖的家。<br>
+                        <strong>預計 02/09 04:55 抵達台北桃園國際機場 (TPE)。</strong>
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Winter Trip Packing Checklist Section -->
+        <section id="packing-list" class="space-y-8 pt-8 border-t border-morandi-oat">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <span class="font-cinzel text-xs uppercase tracking-widest text-morandi-accent">Preparation Checklist</span>
+                <h2 class="font-serif text-3xl font-bold text-morandi-charcoal">冬季出國行李準備清單</h2>
+                <p class="text-xs text-morandi-slate">勾選項目可即時儲存進度，讓打包過程井然有序。</p>
+            </div>
+
+            <!-- Packing Progress Bar -->
+            <div class="max-w-xl mx-auto bg-white p-4 rounded-2xl border border-morandi-oat shadow-xs space-y-2">
+                <div class="flex justify-between items-center text-xs text-morandi-slate font-medium">
+                    <span class="flex items-center gap-1.5">
+                        <i data-lucide="check-circle2" class="w-4 h-4 text-morandi-sage"></i> 打包完成度
+                    </span>
+                    <span id="progress-text" class="text-morandi-charcoal font-bold">0 / 0 (0%)</span>
+                </div>
+                <div class="w-full bg-morandi-oat/60 h-2.5 rounded-full overflow-hidden">
+                    <div id="progress-bar" class="bg-morandi-sage h-full w-0 transition-all duration-300 rounded-full"></div>
+                </div>
+                <div class="flex justify-end pt-1">
+                    <button id="reset-checklist" class="text-[11px] text-morandi-slate hover:text-morandi-clay underline flex items-center gap-1 transition">
+                        <i data-lucide="rotate-ccw" class="w-3 h-3"></i> 重置清單
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- 👜 隨身行李 -->
+                <div class="bg-white rounded-2xl border border-morandi-oat p-6 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4 pb-2 border-b border-morandi-oat">
+                            <i data-lucide="briefcase" class="w-5 h-5 text-morandi-sage"></i>
+                            <h3 class="font-serif font-bold text-lg text-morandi-charcoal">隨身行李</h3>
+                        </div>
+
+                        <!-- 證件與金錢 -->
+                        <div class="mb-4">
+                            <h4 class="text-xs font-bold text-morandi-sage uppercase tracking-wider mb-2">證件與金錢</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                    <span>錢包（少量台幣、信用卡、證件、外匯、大頭照）</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                    <span>護照、護照影本</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- 電子用品 -->
+                        <div class="mb-4">
+                            <h4 class="text-xs font-bold text-morandi-sage uppercase tracking-wider mb-2">電子用品</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                    <span>手機 / 手機充電線</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                    <span>行動電源</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                    <span>iPad (充電設備、滑鼠、轉接頭)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- 日常與隨身配件 -->
+                        <div>
+                            <h4 class="text-xs font-bold text-morandi-sage uppercase tracking-wider mb-2">日常與隨身配件</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                    <span>衛生紙、濕紙巾、口罩、筆</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                    <span>雨傘、保溫瓶/空水瓶、太陽眼鏡</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 👔 衣物 -->
+                <div class="bg-white rounded-2xl border border-morandi-oat p-6 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4 pb-2 border-b border-morandi-oat">
+                            <i data-lucide="shirt" class="w-5 h-5 text-morandi-dustyblue"></i>
+                            <h3 class="font-serif font-bold text-lg text-morandi-charcoal">保暖衣物與穿搭</h3>
+                        </div>
+
+                        <!-- 保暖與貼身 -->
+                        <div class="mb-4">
+                            <h4 class="text-xs font-bold text-morandi-dustyblue uppercase tracking-wider mb-2">層次保暖與貼身</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>發熱衣、中層保暖衣</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>外層羽絨衣或雪衣</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>保暖褲、雪褲</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>內衣、睡衣、內褲</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- 鞋襪配件 -->
+                        <div>
+                            <h4 class="text-xs font-bold text-morandi-dustyblue uppercase tracking-wider mb-2">鞋襪與防寒配件</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>耐走鞋、防水雪鞋(可健行)、拖鞋</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>普通襪、羊毛襪</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>帽子、保暖毛帽、圍巾、耳罩</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                    <span>薄手套、防水厚手套</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-accent focus:ring-morandi-accent border-morandi-sand">
+                                    <span>毛巾、泳衣 (溫泉必備)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 💊 個人用品與護理 -->
+                <div class="bg-white rounded-2xl border border-morandi-oat p-6 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4 pb-2 border-b border-morandi-oat">
+                            <i data-lucide="cross" class="w-5 h-5 text-morandi-clay"></i>
+                            <h3 class="font-serif font-bold text-lg text-morandi-charcoal">個人護理與藥品</h3>
+                        </div>
+
+                        <!-- 藥品 -->
+                        <div class="mb-4">
+                            <h4 class="text-xs font-bold text-morandi-clay uppercase tracking-wider mb-2">常備藥品</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                    <span>頭痛藥、胃痛藥、暈車/機藥</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                    <span>個人專用藥品/藥膏</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- 個人護理 -->
+                        <div class="mb-4">
+                            <h4 class="text-xs font-bold text-morandi-clay uppercase tracking-wider mb-2">護理與保養</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                    <span>防曬乳、防蚊液</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                    <span>隱形眼鏡、人工淚液</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                    <span>護手霜、保濕護膚保養品</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- 收納與保暖 -->
+                        <div>
+                            <h4 class="text-xs font-bold text-morandi-clay uppercase tracking-wider mb-2">收納與抗寒</h4>
+                            <div class="space-y-2 text-xs">
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                    <span>塑膠袋、購物袋、飲料提袋</span>
+                                </label>
+                                <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                    <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                    <span>暖暖包 (多備用)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🛁 盥洗用品 -->
+                <div class="bg-white rounded-2xl border border-morandi-oat p-6 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4 pb-2 border-b border-morandi-oat">
+                            <i data-lucide="bath" class="w-5 h-5 text-morandi-sage"></i>
+                            <h3 class="font-serif font-bold text-lg text-morandi-charcoal">盥洗清潔</h3>
+                        </div>
+
+                        <div class="space-y-2 text-xs">
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                <span>沐浴乳、洗髮乳、洗面乳</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                <span>牙刷、牙膏、牙線</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-sage focus:ring-morandi-sage border-morandi-sand">
+                                <span>個人保濕護膚與其他保養品</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 📷 3C 電器 -->
+                <div class="bg-white rounded-2xl border border-morandi-oat p-6 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4 pb-2 border-b border-morandi-oat">
+                            <i data-lucide="camera" class="w-5 h-5 text-morandi-dustyblue"></i>
+                            <h3 class="font-serif font-bold text-lg text-morandi-charcoal">3C 電器與充電</h3>
+                        </div>
+
+                        <div class="space-y-2 text-xs">
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                <span>手機充電線、延長線</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                <span>行動電源 (多顆備用防低溫耗電)</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                <span>萬國轉接頭</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                <span>相機、自拍桿</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-dustyblue focus:ring-morandi-dustyblue border-morandi-sand">
+                                <span>電熱瓶 / 快煮壺</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ✈️ 飛機與隨身舒適 -->
+                <div class="bg-white rounded-2xl border border-morandi-oat p-6 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4 pb-2 border-b border-morandi-oat">
+                            <i data-lucide="plane-takeoff" class="w-5 h-5 text-morandi-clay"></i>
+                            <h3 class="font-serif font-bold text-lg text-morandi-charcoal">長途機上護理</h3>
+                        </div>
+
+                        <div class="space-y-2 text-xs">
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                <span>頸枕、薄外套、耳塞</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                <span>有線 / 藍芽耳機</span>
+                            </label>
+                            <label class="flex items-center space-x-2.5 text-morandi-slate cursor-pointer hover:text-morandi-charcoal select-none">
+                                <input type="checkbox" class="rounded text-morandi-clay focus:ring-morandi-clay border-morandi-sand">
+                                <span>機上保濕 (護唇膏、乳液或保濕噴霧，液體需裝透明夾鏈袋)</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-morandi-oat/80 border-t border-morandi-sand py-8 text-center text-xs text-morandi-slate">
+        <div class="max-w-6xl mx-auto px-4 space-y-2">
+            <p class="font-serif font-semibold text-morandi-charcoal">加拿大班夫 12 日冬日極致漫遊行程</p>
+            <p>© 2027 Canadian Rockies Winter Expedition. Crafted with Morandi Palette.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons & LocalStorage Checkbox Persistence -->
+    <script>
+        lucide.createIcons();
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const checkboxes = document.querySelectorAll('#packing-list input[type="checkbox"]');
+            const progressBar = document.getElementById('progress-bar');
+            const progressText = document.getElementById('progress-text');
+            const resetButton = document.getElementById('reset-checklist');
+
+            const updateProgress = () => {
+                const total = checkboxes.length;
+                let checkedCount = 0;
+                checkboxes.forEach((cb) => {
+                    if (cb.checked) checkedCount++;
+                });
+
+                const percentage = total > 0 ? Math.round((checkedCount / total) * 100) : 0;
+                if (progressBar) progressBar.style.width = `${percentage}%`;
+                if (progressText) progressText.textContent = `${checkedCount} / ${total} (${percentage}%)`;
+            };
+
+            // Load & save LocalStorage states
+            checkboxes.forEach((cb, index) => {
+                const savedState = localStorage.getItem(`banff_v3_packing_item_${index}`);
+                if (savedState === 'true') {
+                    cb.checked = true;
+                }
+                
+                cb.addEventListener('change', () => {
+                    localStorage.setItem(`banff_v3_packing_item_${index}`, cb.checked);
+                    updateProgress();
+                });
+            });
+
+            if (resetButton) {
+                resetButton.addEventListener('click', () => {
+                    checkboxes.forEach((cb, index) => {
+                        cb.checked = false;
+                        localStorage.removeItem(`banff_v3_packing_item_${index}`);
+                    });
+                    updateProgress();
+                });
+            }
+
+            updateProgress();
+        });
+    </script>
+</body>
+</html>
